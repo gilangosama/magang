@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>Eviden</title>
+</head>
+
+<body>
+    <section>
+        <div class="mx-auto container justify-center items-center flex p-12">
+            <div class="m-auto m-w-xl p-10">
+                <form action="" method="post" class="justify-center">
+                    <div class="justify-center">
+                        <h1 class="font-bold text-2xl py-5">Form Pendataan Aplikasi</h1>
+                        <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto atque eaque
+                            a eligendi,
+                            provident
+                            eum?</p>
+                    </div>
+
+                    <!-- Formulir -->
+                    <div class="flex flex-col">
+                        <label for="namaopd">Nama OPD</label>
+                        <input type="text" name="namaopd" id="namaopd" class="rounded">
+                    </div>
+
+                    <div class="flex justify-between">
+                        <div class="flex flex-col">
+                            <label for="namaaplikasi" class="">Nama Aplikasi</label>
+                            <input type="text" name="namaaplikasi" id="namaaplikasi" class="rounded">
+                        </div>
+
+                        <div class="flex flex-col">
+                            <label for="namaaplikasi">Versi</label>
+                            <input type="text" name="namaaplikasi" id="namaaplikasi">
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <h3>SK Walikota / Kepala unit kerja yang berkaitan dengan aplikasi :</h3>
+                        <div class="flex justify-between">
+                            <div class="flex flex-col">
+                                <label for="nomorsk">Nomor</label>
+                                <input type="text" name="nomorsk" id="nomorsk">
+                            </div>
+
+                            <div class="flex flex-col">
+                                <label for="tahunsk">Tahun</label>
+                                <input type="text" name="tahunsk" id="tahunsk">
+                            </div>
+                        </div>
+                        <div class="text-sm flex flex-col">
+                            <span>*harap melampirkan salinan copy atau hard copy</span>
+                            <input type="file" name="salinan" id="salinan">
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <label for="kondisi">Kondisi</label>
+                        <div class="">
+                            <label for="aktif"><input type="checkbox" name="aktif" id="aktif"
+                                    value="aktif">Aktif</label>
+                            <label for="tidakaktif"><input type="checkbox" name="tidakaktif" id="tidakaktif"
+                                    value="tidakaktif">Tidak Aktif</label>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col">
+                        <label for="Namaadmin">Nama Admin</label>
+                        <input type="text" name="Namaadmin" id="Namaadmin">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="nowa">Nomor WhatsApp</label>
+                        <input type="tel" name="nowa" id="nowa">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="">
+                        <label for="jumlah">Jumlah Pengguna</label>
+                        <input type="text" name="jumlah" id="jumlah">
+                    </div>
+
+                    <div class="">
+                        <label for="layanan">Jenis layanan</label>
+                        <label for="">
+                            <input type="checkbox" name="g2g" id=""> Pemerintahan (G2G)
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="g2g" id=""> Pemerintahan (G2G)
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="g2g" id=""> Pemerintahan (G2G)
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="g2g" id=""> Pemerintahan (G2G)
+                        </label>
+                    </div>
+
+                    <div class="">
+                        <label for="uraian">uraian singkat aplikasi</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
